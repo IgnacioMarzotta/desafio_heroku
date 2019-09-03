@@ -1,0 +1,11 @@
+<h1>Este es el Landing</h1>
+<table>
+    <tbody>
+        <% @students.each do |student| %>
+            <tr>
+                <td><%= student.name %></td>
+                <td><%= student.email %></td>
+            </tr>
+        <% end %>
+    </tbody>
+</table>
